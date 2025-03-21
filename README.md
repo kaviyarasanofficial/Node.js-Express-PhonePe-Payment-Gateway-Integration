@@ -24,7 +24,7 @@ OTP: `123456`
 ## How to Run
 
 Clone the project:
-`git clone https://github.com/VivekNThakkar/phonepe-express.git`
+`git clone https://github.com/kaviyarasanofficial/Node.js-Express-PhonePe-Payment-Gateway-Integration.git`
 
 Install dependencies:
 `npm install`
@@ -51,6 +51,10 @@ Parameters: amount (query parameter)
 **/payment/validate** API: Validate payment status.
 Method: GET
 Endpoint: /payment/validate/:merchantTransactionId
+
+**/payment/validate** API: Refund Status Check.
+Method: GET 
+Endpoint: /refund?amount=value&merchantTransactionId=value&originalTransactionId=value
 
 
 ## Contact Information
