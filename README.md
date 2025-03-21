@@ -52,7 +52,7 @@ Parameters: amount (query parameter)
 Method: GET
 Endpoint: /payment/validate/:merchantTransactionId
 
-**/payment/validate** API: Refund Status Check.
+**/refund** API: Refund Status Check.
 Method: GET 
 Endpoint: /refund?amount=value&merchantTransactionId=value&originalTransactionId=value
 
