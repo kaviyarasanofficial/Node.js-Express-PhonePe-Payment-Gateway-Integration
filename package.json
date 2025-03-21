@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@codemoon/phonepe-lib": "^1.2.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   }
 }
